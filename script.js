@@ -1,6 +1,6 @@
-var button = document.querySelector("#btn")
-var bulb = document.querySelector("#bulb")
-var flag = 0;
+const button = document.querySelector("#btn")
+const bulb = document.querySelector("#bulb")
+let flag = 0;
 button.addEventListener("click", function() {
     if (flag === 0) {
         bulb.style.backgroundColor = "yellow";
